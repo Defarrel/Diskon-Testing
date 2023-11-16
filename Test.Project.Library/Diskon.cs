@@ -31,7 +31,7 @@
             double hargaProduk = 0; // Inisialisasi dengan nilai default
             bool hargaValid = false;
 
-            while (!hargaValid)
+            while (!hargaValid) 
             {
                 Console.WriteLine("Masukkan harga produk per unit: ");
                 if (double.TryParse(Console.ReadLine(), out hargaProduk))
